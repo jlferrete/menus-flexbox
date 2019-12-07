@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     box-sizing: border-box;
     margin: 0;
@@ -62,5 +66,38 @@ nav ul a {
     }
     .sencillo ul li {
         margin-bottom: 0;
+    }
+}
+
+
+/** Iconos **/
+
+.iconos ul li a {
+    display: flex;
+}
+
+.iconos .icono {
+    flex: 0 1 2rem;
+}
+
+.iconos .texto span {
+    font-size: .8rem;
+    display: block;
+    margin-top: .5rem;
+}
+
+@media screen and (min-width:480px) {
+    .iconos ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .iconos ul li {
+        flex: 0 1 50%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .iconos ul li {
+        flex: 1;
     }
 }
