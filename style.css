@@ -149,3 +149,45 @@ nav ul a {
         margin: 0;
     }
 }
+
+
+/** Redes Socialaes**/
+
+.sociales ul li span {
+    display: none;
+}
+
+.sociales ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    /* justify-content: center;
+    justify-content: space-around; */
+    /* justify-content: space-between; */
+    flex: 1 0 auto;
+}
+
+.sociales ul li a:before {
+    font-family: "Font Awesome 5 Brands";
+}
+
+.sociales ul li a[href*='facebook.com']::before {
+    content: "\f39e";
+}
+
+.sociales ul li a[href*='twitter.com']::before {
+    content: "\f099";
+}
+
+.sociales ul li a[href*='youtube.com']::before {
+    content: "\f431";
+}
+
+.sociales ul li a[href*='instagram.com']::before {
+    content: "\f16d";
+}
+
+.sociales ul li a[href*='pinterest.com']::before {
+    content: "\f231 ";
+}
