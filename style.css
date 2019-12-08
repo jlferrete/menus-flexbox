@@ -191,3 +191,12 @@ nav ul a {
 .sociales ul li a[href*='pinterest.com']::before {
     content: "\f231 ";
 }
+
+
+/* Social y dropdown*/
+
+.navegacion-social-dropdown {
+    background-color: #3F51B5;
+    display: flex;
+    justify-content: space-between;
+}
